@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:test_koza/Hoat_test2.dart';
 import 'package:test_koza/Host_test.dart';
+import 'package:test_koza/botton.dart';
 
 // main.dart の main() が最初に呼ばれる
 void main() {
@@ -32,7 +34,8 @@ class MyApp extends StatelessWidget {
       // 最初に表示させるページをは下の HostTest
       // 引数として title 渡してる（無くてもいいよ）
       // 別ファイルに切り出した HostTest を import してあげる
-      home: const HostTest(title: 'テスト画面'),
+      // home: const HostTest(title: 'テスト画面'),
+      home: const HoatTest2(),
     );
   }
 }
